@@ -1,3 +1,4 @@
 # Overrides for production environment
 canonifyURLs = true
+relativeURLs = false
 baseurl = "https://blairtcg.github.io/passkeys.dev/"
