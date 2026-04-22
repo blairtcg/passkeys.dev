@@ -66,6 +66,8 @@ jobs:
         run: hugo --gc --minify
         env:
           HUGO_CACHEDIR: /tmp/hugo_cache
+          HUGO_ENV: production
+          NODE_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
