@@ -2,6 +2,8 @@ baseURL = 'https://blairtcg.github.io/passkeys.dev/'
 languageCode = 'en-us'
 title = 'passkeys.dev'
 
+relativeURLs = true
+canonifyURLs = false
 enableGitInfo = true
 enableRobotsTXT = true
 
