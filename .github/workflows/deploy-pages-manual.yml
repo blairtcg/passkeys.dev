@@ -54,7 +54,7 @@ jobs:
             ${{ runner.os }}-hugo-
 
       - name: Build production website
-        run: hugo --gc --minify
+        run: npm run build -- --baseURL "https://blairtcg.github.io/passkeys.dev/"
         env:
           HUGO_CACHEDIR: /tmp/hugo_cache
           HUGO_ENV: production
